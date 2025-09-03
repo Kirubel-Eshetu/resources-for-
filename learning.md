@@ -1,4 +1,4 @@
-# Resources-for-learning
+# Resources for Learning
 A repository where I keep learning resources address. You are invited to check them out to improve your technical skills as a developer.
 
 ## From the course "The Complete 2024 Web Development Bootcamp" taught by Dr. Angela Lu
@@ -56,12 +56,12 @@ A repository where I keep learning resources address. You are invited to check t
 ### Version control using git and GitHub
 
 Steps to using the command line to commit on a github repository.
-#### Creating Local Repostitory
-
-
+  #### Creating Local Repostitory
       1. git init 
       2. git add example1.example1 example2.example2
       3. git commit -m "Your commit message here"
+
+  ### status and rollback
       - git status --> to check the status 
       - git log --> to get information about recent commits made.
       - git diff filename --> check the difference of a file from the original version
@@ -70,17 +70,26 @@ Steps to using the command line to commit on a github repository.
   #### Creating Remote Repostirory 
       1. git remote add origin github_repository_url
       2. git branch -M main --> Change the deafult branch to main ( the code is going to be pushed here)
-      3. git push -u origin main --> Push the code
+      3. git push -u origin main --> Push the code from local to remote repository
       
   #### Pull requests
+  - Pull Requests: Create pull requests to propose changes and request code reviews before merging.
+
       1. git pull --> pull and merge form remote to local repositories
       2. git pull origin main --allow-unrelated-histories --> pull form remote repository and merge it by allowing unrelated histories.
+
+ #### git branching
+      1. git branch <branch-name> -> to create a new branch.
+      2. git checkout <branch-name> -> to switch between branches.
+      3. git merge <branch-name> -> to combine changes from one branch into another
       
   #### Git Cloning
-    git clone url
-  #### Sample cloning URLs
-- https://github.com/inolen/quakejs.git
-- https://github.com/clupasq/word-mastermind.git
+      git clone url
+
+  #### Update Git Remote URL
+      - git remote -v - Check repository’s remote URL
+      - git remote set-url origin https://<your-username>:<your-token>@github.com/repository-url.git - If it’s using HTTPS, update the remote to include your username and PAT.
+
 
 ### APIs
 - https://www.bored-api.appbrewery.com/endpoint?query=value&query2=value2. bored-api.appbrewery.com ---> base URL   endpoint ---> endpoint  ?query=value&query2=value2 ---> query
@@ -243,3 +252,50 @@ const numbers = [5, 10, 15, 20, 25, 30];
 2. Angular app
 3. Node app
 4. Nextjs app => npm run dev
+
+## From the course "Junior Backend Development" through Gebeya by Ismael Kedir
+### Recommended Resources
+1. MDN Web Docs- Backend Development - A solid resource for understanding backend concepts.
+   https://developer.mozilla.org/en-US/docs/Learn/Server-side
+
+2. Backend Roadmap
+   https://roadmap.sh/backend
+
+3. How APIs Work (Postman Blog)
+   A clear, beginner-focused explanation of APIs and how they enable communication between systems.
+   https://www.postman.com/what-is-an-api
+
+4. Introduction to Cloud Computing by AWS
+   A beginner-friendly guide to understanding the basics of cloud computing, ideal for grasping the concept of scalable server infrastructure.
+   https://aws.amazon.com/what-is-cloud-computing
+
+5. What is a database in under 4 minutes - Video on YouTube 
+   https://www.youtube.com/watch?v=Tklt3WKK-ZY&ab_channel=LinuxAcadamy
+
+6. JavaScript Guide | MDN
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+7. TypeScript 5 fundamentals
+   https://app.pluralsight.com/libraray/courses/typescript-5-fundamentals/table-of-contents
+
+8. TypeScript on Exercism - Explore and get fluent in Typescript
+   https://execism.org/tracks/typescript
+
+9. Object-oriented programming - Learn web development | MDN
+   https://developer.mozilla.org/en-US/docs/Learn/JavaScript...
+
+10. Pro Git-Book
+    https://git-scm.com/book/en/v2
+
+11. Git Guides by GitHub
+    https://github.com/git-guides
+
+12. Oh My Git - A game-like tool to practice Git commands in an interactive and fun way.
+    https://ohmygit.org
+
+13. 
+
+14. 
+
+15.
+

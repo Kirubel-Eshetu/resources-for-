@@ -1,10 +1,10 @@
-# Here I keep resources helping with developing
+# Resources for Developing
 
-# AI code-editor
+## AI code-editor
 <a href = "https://www.cursor.com/">Cursor</a> <br />
 <a href = "https://code.visualstudio.com/">Visual Studio Code</a> <br />
 
-# AI Gpts
+## AI Gpts
 <a href="https://grok.com/">Grok AI</a> <br />
 <a href="https://www.deepseek.com/">DeepSeek</a> <br />
 <a href="https://v0.dev/">v0</a> <br />
@@ -12,15 +12,15 @@
 <a href="https://copilot.microsoft.com/">Copilot</a> <br />
 <a href="https://gemini.google.com/">Gemini</a> <br />
 
-# Design Inspiration
+## Design Inspiration
 <a href="https://toolfolio.io/">Toolfolio</a> <br />
 <a href="https://www.figma.com/">Figma</a> <br />
 <a href="https://www.canva.com/en_gb/">Canva</a> <br />
 
-# Encoding
+## Encoding
 <a href="https://www.urlencoder.org/">URL Encoder</a> <br />
 
-# CSS
+## CSS
 ## Making Objects rotate using CSS
 @media (prefers-reduced-motion: no-preference) {
   .object-class-name {
@@ -36,3 +36,6 @@
     transform: rotate(360deg);
   }
 }
+
+## TypeScript
+- TypeScript playground-> https://www.typescriptlang.org/play/
