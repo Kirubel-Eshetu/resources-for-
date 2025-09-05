@@ -293,9 +293,22 @@ const numbers = [5, 10, 15, 20, 25, 30];
 12. Oh My Git - A game-like tool to practice Git commands in an interactive and fun way.
     https://ohmygit.org
 
-13. 
+#### REST Clients
 
-14. 
+- REST APIs uses multiple, distinct endpoints for each resource, returning pre-defined data structures.
+- GraphQL allows clients to request only the specific data they need from a single, unified endpoint.
 
-15.
+13. Postman -> https://www.postman.com
+
+14. Insomnia -> https://www.insomnia.rest
+
+15. ApiDog -> https://app.apidog.com
+
+16. Firecamp -> https://firecamp.dev
+
+17. HTTP -> MDN Web Docs
+    https://developer.mozilla.og/en-US/docs/Web/HTTP
+
+18. RestApiTutorial Website
+    https://www.restapitutorial.com/
 
