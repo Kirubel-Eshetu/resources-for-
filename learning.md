@@ -312,3 +312,14 @@ const numbers = [5, 10, 15, 20, 25, 30];
 18. RestApiTutorial Website
     https://www.restapitutorial.com/
 
+#### Building Your First Web Application
+
+19. Express.js Documentation
+    https://expressjs.com
+
+20. How to set up TypeScript with Node.js and Express - Article by LogRocket
+    https://blog.logrocket.com/how-to-set-up-node-typescript-express
+
+21. REST API Tutorial
+    https://resfulapi.net
+
