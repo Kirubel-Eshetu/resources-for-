@@ -323,3 +323,25 @@ const numbers = [5, 10, 15, 20, 25, 30];
 21. REST API Tutorial
     https://resfulapi.net
 
+#### Database Fundamentals
+
+22. SQL Tutorial by W3Schools
+    https://www.w3schools.com/sql
+
+23. What is NoSQL? - Resource by MongoDB
+    https://www.mongodb.com/resources/basics/databases/nosql-explained
+
+#### Integrating Databases with Your Application
+
+24. Building a modern backend with TypeScript, PostgreSQL and Prisma
+    https://www.prisma.io/blog/series/modern-backend-bdes2ps5kibb
+
+25. Database integration Guide by Express.js
+    https://expresis.com/en/guide/database-integration.html
+
+26. FreeCodeCamp's CRUD API Tutorial with Node.Js, Express, MongoDB | YouTube
+    https://www.youtube.com/watch?v=7UQPve99r4
+
+27. Prisma Documentation
+    https://www.prisma.io/docs
+
