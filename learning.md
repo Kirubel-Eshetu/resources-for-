@@ -218,6 +218,8 @@ const numbers = [5, 10, 15, 20, 25, 30];
       use databaseName -> create a new database
       db.dropDatabase() -> Delete a database
       mongoimport filename -d databaseName -c collectionName --jsonArray
+      db.createUser({user: "username", pwd: "password', roles: ["readWrite]}) -> Create a user
+      db.getUser("username") -> get information about a user
 
 # JWT (JSON Web Token) Generation
 - Using Node.js => node -e "console.log('JWT_SECRET=' + require('crypto').randomBytes(64).toString('hex'))"
