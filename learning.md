@@ -221,6 +221,10 @@ const numbers = [5, 10, 15, 20, 25, 30];
       db.createUser({user: "username", pwd: "password', roles: ["readWrite]}) -> Create a user
       db.getUser("username") -> get information about a user
 
+### Resources
+Learn more about the MongoDB Drivers: https://docs.mongodb.com/ecosystem/drivers/
+Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tutorial/getting-started/
+
 # JWT (JSON Web Token) Generation
 - Using Node.js => node -e "console.log('JWT_SECRET=' + require('crypto').randomBytes(64).toString('hex'))"
 - Using OpenSSL (Secure Sockets Layer) => openssl rand -hex 64
