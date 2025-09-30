@@ -260,6 +260,20 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 4. Nextjs app => npm run dev
 
 ## From the course "Junior Backend Development" through Gebeya by Ismael Kedir
+
+### Concepts
+#### What is an ORM (Object-Relational-Mapping)
+- An ORM like Prisma is a tool that helps us interact with a relational database using code instead
+of writing SQL queries directly.
+
+- Prisma also supports MongoDB, but its feature set is more limited for NoSQL databases. It's still
+a great option for basic operations, but Object Document Mappings (ODMs) like Mongoose are more specialized for MongoDB-specific features like embedded documents.
+
+- Middlewares are functions that run before the final request handler, modifying the request, response or both.
+- Routing defines how requests are handled for specific endpoints and HTTP methods.
+- Router-level middleware: Allows for more modular and scalable code organization.
+- Error-handling middleware ensures that your app can gracefully respond to issues and provide userful feedback to users.
+
 ### Recommended Resources
 1. MDN Web Docs- Backend Development - A solid resource for understanding backend concepts.
    https://developer.mozilla.org/en-US/docs/Learn/Server-side
@@ -350,4 +364,14 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 
 27. Prisma Documentation
     https://www.prisma.io/docs
+
+#### Middleware and Routing
+
+25. Express.js Middleware Documentation
+    https://expressjs.com/en/guide/using-middleware.html
+
+26. Express.js Routing Documentation
+    https://expresjs.com/en/guide/routing.html
+
+
 
