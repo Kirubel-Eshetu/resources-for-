@@ -264,15 +264,55 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 ### Concepts
 #### What is an ORM (Object-Relational-Mapping)
 - An ORM like Prisma is a tool that helps us interact with a relational database using code instead
-of writing SQL queries directly.
-
+of writing SQL queries directly. <br />
 - Prisma also supports MongoDB, but its feature set is more limited for NoSQL databases. It's still
 a great option for basic operations, but Object Document Mappings (ODMs) like Mongoose are more specialized for MongoDB-specific features like embedded documents.
 
-- Middlewares are functions that run before the final request handler, modifying the request, response or both.
-- Routing defines how requests are handled for specific endpoints and HTTP methods.
-- Router-level middleware: Allows for more modular and scalable code organization.
-- Error-handling middleware ensures that your app can gracefully respond to issues and provide userful feedback to users.
+#### Middleware and Routing
+
+- Middlewares are functions that run before the final request handler, modifying the request, response or both. <br />
+- Routing defines how requests are handled for specific endpoints and HTTP methods. <br />
+- Router-level middleware: Allows for more modular and scalable code organization. <br />
+- Error-handling middleware ensures that your app can gracefully respond to issues and provide userful feedback to users. <br />
+
+#### Logging and Monitoring
+
+- Logging and monitoring provide insights into the application's behavior and performance, helping
+  track down issues in production. <br />
+- Logging: Helps track events and errors that occur while the application is running. <br />
+- Monitoring: Helps track the health and performance of your application over time. Example tools: 
+  PM2
+
+
+#### Depolyment and DevOps Basics
+##### Environment Configuration
+
+- Environment Conifguration is all about preparing your application to run seamlessly accross different environemnts-development, testing and production. It ensures your app can run in different environments
+
+    - Development Environment: Where you write and test your code locally.
+    - Testing Environment: Used for quality assurance and running automated tests.
+    - Production Environment: Where your application serves real users.
+
+##### Build and Depolyment Pipelines
+
+- A build and depolyment pipeline automates the process of preparing and pushing your application to production.
+
+- Build: Compiles TypeScript to JavaScript and packages your app for depolyment. <br />
+- Test: Runs automated tests to catch bugs before deployment. <br />
+- Deploy: Pushes the code to a live environment, making it accessible to users.
+
+##### Continuous Integration and Continuous Deployment (CI/CD)
+
+- Continuous Integration/Continuous Deployment(CI/CD) helps automate the entire development process, from testing to deployment.
+
+###### Continuous Integration (CI)
+ - Continuous Integration is a practice where developers frequently push code to a shared repository. <br />
+ - Automated tests run on every push to ensure that new changes don't break exisiting code. <br />
+ - CI tools: GitHub Actions, GitLab CI, Travis CI, CircleCI.
+
+##### Continuous Depolyment (CD)
+- Continuous Deployment automates the depolyment of code after it passes all the tests in the CI pipeline. <br />
+- With CD, once your code passes tests, it automatically gets deployed to production (or desired environment)
 
 ### Recommended Resources
 1. MDN Web Docs- Backend Development - A solid resource for understanding backend concepts.
@@ -372,6 +412,28 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
 
 26. Express.js Routing Documentation
     https://expresjs.com/en/guide/routing.html
+
+#### Web Application Security Basics
+
+27. JWT.io - Learn more about JSON Web Tokens and how they work.
+    https://jwt.io
+
+28. Passport.js Documentation
+    https://www.passportjs.org
+
+#### Testing and Debugging
+
+29. Jest Documentation
+    https://jestjs.io/docs/getting-started
+
+30. Debugging Node.js
+    https://nodejs.org/en/learn/getting-started/debugging
+
+#### Deployment and DevOps Basics
+31. Node.js Best Practices
+    https://github.com/goldbergyoni/nodebestpractices
+32. Docker for Beginners - Learn to build and deploy your applications easily to the cloud with Docker
+    https://docker-curriculum.com
 
 
 
