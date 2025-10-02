@@ -435,5 +435,12 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
 32. Docker for Beginners - Learn to build and deploy your applications easily to the cloud with Docker
     https://docker-curriculum.com
 
+## From the course "Tailwind CSS From Scratch - Learn by Building Projects" through O'REILLY by Brad Traversy
+### Introduction
+#### What is Tailwind CSS
+- Tailwind is a CSS framework that uses low-level "utility" classes to create layouts. This is known as a utility-first framework.
+- Traditional CSS frameworks like Bootstrap use classes that are directly correlated to components (eg. Alerts, Navbars). Tailwind uses
+classes as utilities to put together to build your own custom components.
+- Utility classes are simple HTML classes typically scoped to a single and specific CSS property.
 
 
