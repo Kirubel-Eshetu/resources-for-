@@ -40,6 +40,7 @@ A repository where I keep learning resources address. You are invited to check t
 - ESM = ECMAScript Modules
 - EJS = Embedded JavaScript
 - JSON = JavaScript Object Notation. This is basically a configuration file.
+- ARIA = Accessible Rich Internet Applications
 
 ### HTTP return codes cheat sheet
 - GET => Request resource.

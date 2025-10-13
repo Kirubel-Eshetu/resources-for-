@@ -1,4 +1,4 @@
-# Resources for Developing
+a# Resources for Developing
 
 ## AI code-editor
 1. <a href = "https://www.cursor.com/">Cursor</a> 
@@ -17,6 +17,7 @@
 2. <a href="https://www.figma.com/">Figma</a> 
 3. <a href="https://www.canva.com/en_gb/">Canva</a> 
 4. <a href="https://www.frontendmentor.io/">Frontend Mentor</a>
+5. <a href="https://www.uidesigndaily.com/">UI inspiration</a>
 
 ## Encoding
 1. <a href="https://www.urlencoder.org/">URL Encoder</a>
