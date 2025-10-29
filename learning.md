@@ -444,4 +444,8 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
 classes as utilities to put together to build your own custom components.
 - Utility classes are simple HTML classes typically scoped to a single and specific CSS property.
 
+## AJAX
+- AJAX stands for Asynchronous JavaScript and XML. <br />
+- It’s a technique that allows web pages to send and receive data from a server asynchronously — without reloading or refreshing the entire page.
+
 
