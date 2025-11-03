@@ -110,6 +110,26 @@ Steps to using the command line to commit on a github repository.
 - https://picsum.photos/
 
 ### React
+- React is a lightweight library from Facebook <br />
+    - Helps you develop large-scale web applications. <br />
+    - Give you a logical way to construct your UI code. <br />
+
+- React allows you to create apps for <br />
+    - Web browsers (via Reactjs) <br />
+    - iOS/ Android native devices (via React Native) <br />
+
+- Most browsers also support an extension callec React Developer Tools <br />
+    - Helps you understand the hierarchy of elements in your UI
+
+- React has quite a small number of libraries. <br />
+
+- There are two ways to incorportate these libraries in your web app: <br />
+    - Download the libraries directly into your app at run-time <br />
+    - Pre-package the libraries into your app at dev-time
+
+
+
+#### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
     3. npm start
