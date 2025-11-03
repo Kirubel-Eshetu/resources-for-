@@ -135,7 +135,35 @@ Steps to using the command line to commit on a github repository.
 - React:- class enables you to create element objects.
 - createRoot:- a function that creates a root, into which you render your React content.
 
+#### Understanding the DOM (Document Object Model)
+- Browsers maintain an in-memory tree of objects called the Document Object Model (DOM)
+    - The DOM tree represents the contents of the web page.
+- Traditionally, you would use the DOM API to modify the contents of the web page programmatically
+    - Create new elements
+    - Append child elements
+    - Set attributes
+    - Etc..
 
+##### Problems with Manipulating the DOM Directly
+- Manipulating the DOM directly is tedious
+    - You have to write a lot of code to achieve anything
+    - This is why libraries such as jQuery became popular
+- Manipulating the DOM directly is also quite slow
+    - When you modify any content ini the DOM, the browser re-renders a large portion of the DOM tree.
+
+#### Understanding the React Virtual DOM
+- React introuduces the concept of the virtual DOM
+    - A copy of the browser's real DOM
+    - Contains lightweight copies of objects in the real DOM
+    - React only re-renders nodes that have changed
+##### Viewing the Virtual DOM
+- You can view the virtual DOM in a browser, by using React Developer Tools in Chrome...
+    - Open a React web page in the browser
+    - Show the DevTools window (F12)
+    - Click the Components tab
+    - In the Serach window, click the Settings cog
+    - In the popup window, select the Components tab
+    - Deselect the "Hide components where" option
 
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
