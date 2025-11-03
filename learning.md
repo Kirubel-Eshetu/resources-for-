@@ -32,12 +32,12 @@ A repository where I keep learning resources address. You are invited to check t
 
 ### Common words and Abbrevations
 
-- CDN stands for Content Distribution Network. I have discovered this when learning BootStrap.
+- CDN = Content Distribution Network. Discovered this when learning BootStrap.
 - Vanilla language = Pure language without any external libraries and frameworks
   Example: Vanilla CSS = Pure CSS without bootstrap or tailwind css and soon.
 - NPM = Node Package Manager
 - CJS = Common JavaScript
-- ESM = ECMAScript Modules
+- ESM = ECMAScript Module --> It is a library. ECMAScript is the modern name for JavaScript.
 - EJS = Embedded JavaScript
 - JSON = JavaScript Object Notation. This is basically a configuration file.
 - ARIA = Accessible Rich Internet Applications
@@ -126,6 +126,14 @@ Steps to using the command line to commit on a github repository.
 - There are two ways to incorportate these libraries in your web app: <br />
     - Download the libraries directly into your app at run-time <br />
     - Pre-package the libraries into your app at dev-time
+
+- A React web app has a single, top-level HTML element into which React will render the UI.
+- You typically define it as a <div> like this:
+    <div id="root"></div>
+- Give the element a suitable id
+    - You'll render React content here.
+- React:- class enables you to create element objects.
+- createRoot:- a function that creates a root, into which you render your React content.
 
 
 
