@@ -152,10 +152,11 @@ Steps to using the command line to commit on a github repository.
     - When you modify any content ini the DOM, the browser re-renders a large portion of the DOM tree.
 
 #### Understanding the React Virtual DOM
-- React introuduces the concept of the virtual DOM
-    - A copy of the browser's real DOM
-    - Contains lightweight copies of objects in the real DOM
-    - React only re-renders nodes that have changed
+- React introduces the concept of the virtual DOM:
+    - A bunch of element objects that are going to be rendered.
+    - A copy of the browser's real DOM.
+    - Contains lightweight copies of objects in the real DOM.
+    - React only re-renders nodes that have changed.
 ##### Viewing the Virtual DOM
 - You can view the virtual DOM in a browser, by using React Developer Tools in Chrome...
     - Open a React web page in the browser
