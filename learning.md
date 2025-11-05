@@ -157,6 +157,7 @@ Steps to using the command line to commit on a github repository.
     - A copy of the browser's real DOM.
     - Contains lightweight copies of objects in the real DOM.
     - React only re-renders nodes that have changed.
+    
 ##### Viewing the Virtual DOM
 - You can view the virtual DOM in a browser, by using React Developer Tools in Chrome...
     - Open a React web page in the browser
