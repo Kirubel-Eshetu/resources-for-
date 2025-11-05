@@ -166,6 +166,14 @@ Steps to using the command line to commit on a github repository.
     - In the popup window, select the Components tab
     - Deselect the "Hide components where" option
 
+#### Mapping Data to Elements
+- You can use map() to map array items to React elements. <br />
+    someArray.map((arrayItem, index) => React.createElement(htmlElement, htmlProperties, htmlContent)) <br />
+    - index can sometimes be written as idx.
+- map () takes a lambda parameter
+    - The lambda receives 2 args - (array item, index).
+    - The lambda creates and returns a React element.
+
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
