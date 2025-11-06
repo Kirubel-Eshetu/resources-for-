@@ -175,6 +175,11 @@ Steps to using the command line to commit on a github repository.
     - The lambda receives 2 args - (array item, index).
     - The lambda creates and returns a React element.
 
+#### How to Define Components in React
+- There are two ways to develop components in React...
+    - Via classes and inheritance
+    - Via functional components
+
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
