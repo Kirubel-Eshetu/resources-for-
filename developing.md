@@ -1,10 +1,9 @@
-a# Resources for Developing
-
+# Resources for Developing
 ## AI code-editor
 1. <a href = "https://www.cursor.com/">Cursor</a> 
 2. <a href = "https://code.visualstudio.com/">Visual Studio Code</a> 
 
-## AI Gpts
+## AI GPTs
 1. <a href="https://grok.com/">Grok AI</a> <br />
 2. <a href="https://www.deepseek.com/">DeepSeek</a> 
 3. <a href="https://v0.dev/">v0</a> <br />
