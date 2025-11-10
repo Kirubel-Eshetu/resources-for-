@@ -191,6 +191,15 @@
     }
 - Whenever you see a function in React capitalized, it is a component which means it returns a subset of the virtual DOM.
 
+#### What is Destructuring?
+- Destructuring is a language feature in ECMAScript 2015. The offical name of JavaScript is ECMAScript.
+    - Extracts properites from an object into a separate variables.
+    - For Example:
+    let object = {"fname": "Kirubel", "car": "Mustang", "hobbie", "Golf" };
+    let {fname, hobbie } = object;
+
+    console.log(`Hi this is ${fname}. My hobbie is ${hobbie}`)
+
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
