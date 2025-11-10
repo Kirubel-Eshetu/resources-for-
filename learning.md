@@ -176,6 +176,21 @@
     - Via classes and inheritance
     - Via functional components
 
+##### Introducting Functional Componenets
+- You can define a component as a function, rather than as a class.
+- Benefits of functional components:
+    - Simpler syntax than class components
+    - Support modern features in the React library
+- To define a functional component:
+    - Just define a function (name must start with a capital letter)
+    - In the function, create and return the component's UI
+###### Defining Functional Components
+- Here's the functional component for products data:
+    function ProductList() {
+        return React.createElement("p", null, "Products data list")
+    }
+- Whenever you see a function in React capitalized, it is a component which means it returns a subset of the virtual DOM.
+
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
