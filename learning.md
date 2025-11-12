@@ -200,6 +200,29 @@
 
     console.log(`Hi this is ${fname}. My hobbie is ${hobbie}`)
 
+#### Introducing JSX
+- React supports a lightweight syntax called JSX.
+    - A combination of JavaScript and XML.
+    - Enbales you to create React elements concisely via XML.
+- Example:
+    const messiah = <h1>Jesus is Lord and the messiah.</h1>
+    - on the above JSX code, const messiah is JavaScript. While <h1>Jesus is Lord and the messiah.</h1> is an XML.
+##### Transpiling (Compiling) JSX
+- Browsers don't understand JSX syntax directly.
+    - JSX syntax must be transpiled into "pure" React.
+- You can use the Babel transpiler to do this.
+    1. Add a <script> tag to download the Babel transplier
+    2. Embed JSX code inside <script type = "text/babel">
+        <script src="..URL for Babel transpiler..."></script>
+        <script type="text/babel"...>
+            Some JSX script here. (Don't hack with them :)
+        </script>
+##### JSX Content
+- JSX elements can contain:
+    - Text content
+    - JavaScript expressions
+    - Other nested elements, as deeply nested as you like
+
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
