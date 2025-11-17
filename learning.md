@@ -220,8 +220,9 @@
 ##### JSX Content
 - JSX elements can contain:
     - Text content
-    - JavaScript expressions
+    - JavaScript expressions. You must enclose JS expressions in {} braces if you want to access them inside the XML part.
     - Other nested elements, as deeply nested as you like
+
 
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
