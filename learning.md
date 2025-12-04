@@ -52,38 +52,31 @@
 - 5xx => I (the server) screwed up
 
 ### Version control using git and GitHub
-- Steps to using the command line to commit on a github repository.
+- Steps to using the command line to commit on a github repository:-
 
 #### Creating Local Repostitory
       1. git init 
       2. git add example1.example1 example2.example2
       3. git commit -m "Your commit message here"
-
-### status and rollback
+#### status and rollback
       - git status --> to check the status 
       - git log --> to get information about recent commits made.
       - git diff filename --> check the difference of a file from the original version
       - git checkout filename --> rollback a file to it's last version
-
 #### Creating Remote Repostirory 
       1. git remote add origin github_repository_url
       2. git branch -M main --> Change the deafult branch to main ( the code is going to be pushed here)
       3. git push -u origin main --> Push the code from local to remote repository
-      
 #### Pull requests
   - Pull Requests: Create pull requests to propose changes and request code reviews before merging.
-
       1. git pull --> pull and merge form remote to local repositories
       2. git pull origin main --allow-unrelated-histories --> pull form remote repository and merge it by allowing unrelated histories.
-
  #### git branching
       1. git branch <branch-name> -> to create a new branch.
       2. git checkout <branch-name> -> to switch between branches.
       3. git merge <branch-name> -> to combine changes from one branch into another
-      
 #### Git Cloning
       git clone url
-
 #### Update Git Remote URL
       - git remote -v - Check repository’s remote URL
       - git remote set-url origin https://<your-username>:<your-token>@github.com/repository-url.git - If it’s using HTTPS, update the remote to include your username and PAT.
@@ -104,15 +97,15 @@
 
 #### Random Image Resource
 - https://picsum.photos/
-
+<!--- Stopped reviewing here --->
 ### React
-- React is a lightweight library from Facebook <br />
-    - Helps you develop large-scale web applications. <br />
-    - Give you a logical way to construct your UI code. <br />
+- React is a lightweight library from Facebook.
+    - Helps you develop large-scale web applications.
+    - Give you a logical way to construct your UI code. 
 
-- React allows you to create apps for <br />
-    - Web browsers (via Reactjs) <br />
-    - iOS/ Android native devices (via React Native) <br />
+- React allows you to create apps for 
+    - Web browsers (via Reactjs) 
+    - iOS/ Android native devices (via React Native) 
 
 - Most browsers also support an extension callec React Developer Tools <br />
     - Helps you understand the hierarchy of elements in your UI
