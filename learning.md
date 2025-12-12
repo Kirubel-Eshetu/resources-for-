@@ -310,27 +310,27 @@ const numbers = [5, 10, 15, 20, 25, 30];
 ## Docker
 - You can build an image using the following docker build command via a CLI in your project folder.
 
-      docker build -t welcome-to-docker .
+    - docker build -t welcome-to-docker .
 
-# MongoDB course by Max Schwezner
-### Databases, Collections and Documents
+### MongoDB course by Max Schwezner
+#### Databases, Collections and Documents
 - A Database holds multiple Collections where each collection can then hold multiple Documents.
 - Databases and Collections are created "lazily" (i.e. when a Document is inserted).
 - A Document can't directly be inserted into a Database, you need to use a Collection!
   
-### Document Structure
+#### Document Structure
 - Each document needs a unique ID ( and gets one by default)
 - You may have embedded documents and array fields.
 - MongoDB doesn't use JSON but BSON (Binary JSON). We write a JSON file and MongoDB Drivers converts that JSON to BSON.
 
-### Some commands
-      use databaseName -> create a new database
-      db.dropDatabase() -> Delete a database
-      mongoimport filename -d databaseName -c collectionName --jsonArray
-      db.createUser({user: "username", pwd: "password', roles: ["readWrite]}) -> Create a user
-      db.getUser("username") -> get information about a user
+#### Some commands
+- use databaseName -> create a new database
+- db.dropDatabase() -> Delete a database
+- mongoimport filename -d databaseName -c collectionName --jsonArray
+- db.createUser({user: "username", pwd: "password', roles: ["readWrite]}) -> Create a user
+- db.getUser("username") -> get information about a user
 
-### Resources
+#### Resources
 Learn more about the MongoDB Drivers: https://docs.mongodb.com/ecosystem/drivers/
 Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tutorial/getting-started/
 
@@ -338,29 +338,29 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 - Using Node.js => node -e "console.log('JWT_SECRET=' + require('crypto').randomBytes(64).toString('hex'))"
 - Using OpenSSL (Secure Sockets Layer) => openssl rand -hex 64
 
-# Running HTML file from the termial
+# Running HTML file from the terminal
 ## 1. Using Python (Recommended)
-    cd project_folder
-    python -m http.server 2300
+1. cd project_folder
+2. python -m http.server 2300
 - Then open your browser and go to: http://localhost:8000
   
 ## 2. Using Node.js (if you have it installed)
-    npm install -g http-server
-    cd project_folder
-    http-server
+1. npm install -g http-server
+2. cd project_folder
+3. http-server
 ## 3. Using PHP 
-    cd project_folder
-    php -S localhost: 2300
+1. cd project_folder
+2. php -S localhost: 2300
 
 ## 4. Direct File Opening (Limited)
 ### On Windows
-    start index.html
+- start index.html
 
 ### On macOS
-    open index.html
+- open index.html
 
 ### On Linux
-    xdg-open index.html
+- xdg-open index.html
     
 # Running app
 1. React app
@@ -368,8 +368,8 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 3. Node app
 4. Nextjs app => npm run dev
 
+<!-- Stopped reviewing here!-->
 ## From the course "Junior Backend Development" through Gebeya by Ismael Kedir
-
 ### Concepts
 #### What is an ORM (Object-Relational-Mapping)
 - An ORM like Prisma is a tool that helps us interact with a relational database using code instead
