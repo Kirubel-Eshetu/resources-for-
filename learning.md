@@ -97,7 +97,7 @@
 
 #### Random Image Resource
 - https://picsum.photos/
-<!--- Stopped reviewing here --->
+
 ### React
 - React is a lightweight library from Facebook.
     - Helps you develop large-scale web applications.
@@ -107,7 +107,7 @@
     - Web browsers (via Reactjs) 
     - iOS/ Android native devices (via React Native) 
 
-- Most browsers also support an extension callec React Developer Tools <br />
+- Most browsers also support an extension called React Developer Tools <br />
     - Helps you understand the hierarchy of elements in your UI
 
 - React has quite a small number of libraries. <br />
@@ -210,6 +210,7 @@
         <script type="text/babel"...>
             Some JSX script here. (Don't hack with them :)
         </script>
+
 ##### JSX Content
 - JSX elements can contain:
     - Text content
@@ -230,79 +231,78 @@
 ##### Map Function
 const numbers = [5, 10, 15, 20, 25, 30];
 
-1. function square(num) {
-  return x * x;
-};
+1. function square(num) { <br />
+  return x * x; <br />
+}; <br />
 - const squareNum = numbers.map(square);
 - console.log(squareNum);
 
-2. const squareNum = numbers.map(function (num) {
-  return x * x;
-});  
+2. const squareNum = numbers.map(function (num) { <br />
+  return x * x; <br />
+});  <br />
 - console.log(squareNum);
 
-3. const squareNum = numbers.map((num) => x*x);
-- console.log(squareNum);
+3. const squareNum = numbers.map((num) => x*x); <br />
+- console.log(squareNum); <br />
 
 ##### Reduce Function
 
-const numbers = [5, 10, 15, 20, 25, 30];
+const numbers = [5, 10, 15, 20, 25, 30]; <br />
 
-1. function accNum(accumulator, currentNumber){
-      return accumlator + currentNumber;
-   };
+1. function accNum(accumulator, currentNumber){ <br />
+      return accumlator + currentNumber; <br />
+   }; <br />
 - const accumulatedNum = numbers.reduce(accNum);
 - console.log(accumatedNum);
 
-2. const accumulatedNum = number.reduce(function (accumulator, currentNumber){
-      return accumulator + currentNumber;
-   });
+2. const accumulatedNum = number.reduce(function (accumulator, currentNumber){ <br />
+      return accumulator + currentNumber; <br />
+   }); <br />
 - console.log(accumulatedNum);
 
-3. const accumulatedNum = number.reduce((accumulator, currentNumber) => accumulator + currentNumber);
+3. const accumulatedNum = number.reduce((accumulator, currentNumber) => <br /> accumulator + currentNumber); <br />
 - console.log(accumlatedNum); //For checking the output
    
 #### Find Function
-
 const numbers = [5, 10, 15, 20, 25, 30];
 
-1. function findNum(num){
-    return num < 15;
+1. function findNum(num){ <br />
+    return num < 15; <br />
    }
 - const findNumber = numbers.find(findNum);
 - console.log(findNumber);  //For checking the output
 
-2. const findNumber = numbers.find(function (num) {
-   return num < 15;
-   });
+2. const findNumber = numbers.find(function (num) { <br />
+   return num < 15; <br />
+   }); <br />
 - console.log(findNumber);
 
-3. const findNumber = numbers.find((num) => num<15);
-- console.log(findNumber);
+3. const findNumber = numbers.find((num) => num<15); <br />
+- console.log(findNumber); <br />
 
 ##### FindIndex Function
 
 - const numbers = [5, 10, 15, 20, 25, 30];
 
-1. function findNum(num){
-    return num < 15;
-   }
+1. function findNum(num){ <br />
+    return num < 15; <br />
+   } 
 - const findNumber = numbers.findIndex(findNum);
 - console.log(findNumber);  //For checking the output
 
-2. const findNumber = numbers.findIndex(function (num) {
-   return num < 15;
-   });
+2. const findNumber = numbers.findIndex(function (num) { <br />
+   return num < 15; <br />
+   }); <br />
 - console.log(findNumber);
 
-3. const findNumber = numbers.findIndex((num) => num<15);
+3. const findNumber = numbers.findIndex((num) => num<15); <br />
 - console.log(findNumber);
 
 ### Starting Servers of different Frameworks
 
-    1. node entryfilename.js / nodemon entryfilename.js (If you have nodemon installed)  => For node, Express
-    2. npm start  => For react
-    3. ng serve   => For Angular
+1. node entryfilename.js / nodemon entryfilename.js (If you have nodemon installed)  => For node, Express 
+2. npm start  => For react 
+3. ng serve   => For Angular 
 
 ## MongoDB
 - A collection is a group of documents and a database is a group of collections.
