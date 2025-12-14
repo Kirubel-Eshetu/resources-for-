@@ -1,8 +1,4 @@
 # Resources for Developing
-## AI code-editor
-1. <a href = "https://www.cursor.com/">Cursor</a> 
-2. <a href = "https://code.visualstudio.com/">Visual Studio Code</a> 
-
 ## AI GPTs
 1. <a href="https://openai.com/index/chatgpt/">Chatgpt</a>
 2. <a href="https://grok.com/">Grok AI</a> <br />
@@ -21,8 +17,13 @@
 ## Encoding
 1. <a href="https://www.urlencoder.org/">URL Encoder</a>
 
+## AI code-editor (Don't vibe code, please)
+- Use ask rather than agent mode so you can write your code yourself and learn from it.
+1. <a href = "https://www.cursor.com/">Cursor</a> 
+2. <a href = "https://code.visualstudio.com/">Visual Studio Code</a> 
+
 ## CSS
-## Making Objects rotate using CSS
+### Making Objects rotate using CSS
 @media (prefers-reduced-motion: no-preference) {
   .object-class-name {
     animation: object-class-name-spin infinite 100s linear;
