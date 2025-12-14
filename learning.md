@@ -368,50 +368,40 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 3. Node app
 4. Nextjs app => npm run dev
 
-<!-- Stopped reviewing here!-->
 ## From the course "Junior Backend Development" through Gebeya by Ismael Kedir
 ### Concepts
 #### What is an ORM (Object-Relational-Mapping)
-- An ORM like Prisma is a tool that helps us interact with a relational database using code instead
-of writing SQL queries directly. <br />
-- Prisma also supports MongoDB, but its feature set is more limited for NoSQL databases. It's still
-a great option for basic operations, but Object Document Mappings (ODMs) like Mongoose are more specialized for MongoDB-specific features like embedded documents.
+- An ORM like Prisma is a tool that helps us interact with a relational database using code instead of writing SQL queries directly. <br />
+- Prisma also supports MongoDB, but its feature set is more limited for NoSQL databases. It's still a great option for basic operations, but Object Document Mappings (ODMs) like Mongoose are more specialized for MongoDB-specific features like embedded documents.
 
 #### Middleware and Routing
-
 - Middlewares are functions that run before the final request handler, modifying the request, response or both. <br />
 - Routing defines how requests are handled for specific endpoints and HTTP methods. <br />
 - Router-level middleware: Allows for more modular and scalable code organization. <br />
 - Error-handling middleware ensures that your app can gracefully respond to issues and provide userful feedback to users. <br />
 
 #### Logging and Monitoring
-
 - Logging and monitoring provide insights into the application's behavior and performance, helping
   track down issues in production. <br />
 - Logging: Helps track events and errors that occur while the application is running. <br />
 - Monitoring: Helps track the health and performance of your application over time. Example tools: 
-  PM2
+  - PM2
 
 
 #### Depolyment and DevOps Basics
 ##### Environment Configuration
-
-- Environment Conifguration is all about preparing your application to run seamlessly accross different environemnts-development, testing and production. It ensures your app can run in different environments
-
+- Environment Conifguration is all about preparing your application to run seamlessly accross different environemnts-development, testing and production. It ensures your app can run in different environments: <br />
     - Development Environment: Where you write and test your code locally.
     - Testing Environment: Used for quality assurance and running automated tests.
     - Production Environment: Where your application serves real users.
 
 ##### Build and Depolyment Pipelines
-
-- A build and depolyment pipeline automates the process of preparing and pushing your application to production.
-
+- A build and depolyment pipeline automates the process of preparing and pushing your application to production. <br />
 - Build: Compiles TypeScript to JavaScript and packages your app for depolyment. <br />
 - Test: Runs automated tests to catch bugs before deployment. <br />
 - Deploy: Pushes the code to a live environment, making it accessible to users.
 
 ##### Continuous Integration and Continuous Deployment (CI/CD)
-
 - Continuous Integration/Continuous Deployment(CI/CD) helps automate the entire development process, from testing to deployment.
 
 ###### Continuous Integration (CI)
@@ -425,45 +415,44 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
 
 ### Recommended Resources
 1. MDN Web Docs- Backend Development - A solid resource for understanding backend concepts.
-   https://developer.mozilla.org/en-US/docs/Learn/Server-side
+   - https://developer.mozilla.org/en-US/docs/Learn/Server-side
 
 2. Backend Roadmap
-   https://roadmap.sh/backend
+   - https://roadmap.sh/backend
 
 3. How APIs Work (Postman Blog)
    A clear, beginner-focused explanation of APIs and how they enable communication between systems.
-   https://www.postman.com/what-is-an-api
+   - https://www.postman.com/what-is-an-api
 
 4. Introduction to Cloud Computing by AWS
    A beginner-friendly guide to understanding the basics of cloud computing, ideal for grasping the concept of scalable server infrastructure.
-   https://aws.amazon.com/what-is-cloud-computing
+   - https://aws.amazon.com/what-is-cloud-computing
 
 5. What is a database in under 4 minutes - Video on YouTube 
-   https://www.youtube.com/watch?v=Tklt3WKK-ZY&ab_channel=LinuxAcadamy
+   - https://www.youtube.com/watch?v=Tklt3WKK-ZY&ab_channel=LinuxAcadamy
 
 6. JavaScript Guide | MDN
-   https://developer.mozilla.org/en-US/docs/Web/JavaScript
+   - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 7. TypeScript 5 fundamentals
-   https://app.pluralsight.com/libraray/courses/typescript-5-fundamentals/table-of-contents
+   - https://app.pluralsight.com/libraray/courses/typescript-5-fundamentals/table-of-contents
 
 8. TypeScript on Exercism - Explore and get fluent in Typescript
-   https://execism.org/tracks/typescript
+   - https://execism.org/tracks/typescript
 
 9. Object-oriented programming - Learn web development | MDN
-   https://developer.mozilla.org/en-US/docs/Learn/JavaScript...
+   - https://developer.mozilla.org/en-US/docs/Learn/JavaScript...
 
 10. Pro Git-Book
-    https://git-scm.com/book/en/v2
+    - https://git-scm.com/book/en/v2
 
 11. Git Guides by GitHub
-    https://github.com/git-guides
+    - https://github.com/git-guides
 
 12. Oh My Git - A game-like tool to practice Git commands in an interactive and fun way.
-    https://ohmygit.org
+    - https://ohmygit.org
 
 #### REST Clients
-
 - REST APIs uses multiple, distinct endpoints for each resource, returning pre-defined data structures.
 - GraphQL allows clients to request only the specific data they need from a single, unified endpoint.
 
@@ -482,7 +471,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://www.restapitutorial.com/
 
 #### Building Your First Web Application
-
 19. Express.js Documentation
     https://expressjs.com
 
@@ -493,7 +481,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://resfulapi.net
 
 #### Database Fundamentals
-
 22. SQL Tutorial by W3Schools
     https://www.w3schools.com/sql
 
@@ -501,7 +488,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://www.mongodb.com/resources/basics/databases/nosql-explained
 
 #### Integrating Databases with Your Application
-
 24. Building a modern backend with TypeScript, PostgreSQL and Prisma
     https://www.prisma.io/blog/series/modern-backend-bdes2ps5kibb
 
@@ -515,7 +501,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://www.prisma.io/docs
 
 #### Middleware and Routing
-
 25. Express.js Middleware Documentation
     https://expressjs.com/en/guide/using-middleware.html
 
@@ -523,7 +508,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://expresjs.com/en/guide/routing.html
 
 #### Web Application Security Basics
-
 27. JWT.io - Learn more about JSON Web Tokens and how they work.
     https://jwt.io
 
@@ -531,7 +515,6 @@ a great option for basic operations, but Object Document Mappings (ODMs) like Mo
     https://www.passportjs.org
 
 #### Testing and Debugging
-
 29. Jest Documentation
     https://jestjs.io/docs/getting-started
 
