@@ -217,7 +217,6 @@
     - JavaScript expressions. You must enclose JS expressions in {} braces if you want to access them inside the XML part.
     - Other nested elements, as deeply nested as you like
 
-
 #### Ways to start with React
     1. npx create-react-app your-react-app-name
     2. cd your-react-app-name
@@ -386,7 +385,6 @@ Dive into the official Getting Started Docs: https://docs.mongodb.com/manual/tut
 - Logging: Helps track events and errors that occur while the application is running. <br />
 - Monitoring: Helps track the health and performance of your application over time. Example tools: 
   - PM2
-
 
 #### Depolyment and DevOps Basics
 ##### Environment Configuration
