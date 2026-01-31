@@ -70,17 +70,21 @@
 3. git push -u origin main --> Push the code from local to remote repository
 
 #### Pull requests
-  - Pull Requests: Create pull requests to propose changes and request code reviews before merging.
-      1. git pull --> pull and merge form remote to local repositories
+  - **Pull Request(PR)**: is a proposal to merge a set of changes from one branch into another.
+  - Create pull requests to propose changes and request code reviews before merging.
+      1. git pull --> pull and merge from remote to local repositories
       2. git pull origin main --allow-unrelated-histories --> pull form remote repository and merge it by allowing unrelated histories.
 
- #### git branching
-1. git branch <branch-name> -> to create a new branch.
-2. git checkout <branch-name> -> to switch between branches.
-3. git merge <branch-name> -> to combine changes from one branch into another
+#### git branching
+1. git branch -> see the branchs on the repository
+2. git branch <branch-name> -> creates a new branch but does NOT switch to it.
+4. git checkout -b <new-branch> -> creates a new branch and immediately switches to it.
+3. git checkout <branch-name> -> to switch between branches.
+4. git merge <branch-name> -> to combine changes from one branch into another
 
 #### Git Cloning
       git clone url
+
 #### Update Git Remote URL
       - git remote -v - Check repository’s remote URL
       - git remote set-url origin https://<your-username>:<your-token>@github.com/repository-url.git - If it’s using HTTPS, update the remote to include your username and PAT.
