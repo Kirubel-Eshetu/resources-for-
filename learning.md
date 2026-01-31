@@ -55,26 +55,30 @@
 - Steps to using the command line to commit on a github repository:-
 
 #### Creating Local Repostitory
-      1. git init 
-      2. git add example1.example1 example2.example2
-      3. git commit -m "Your commit message here"
+1. git init 
+2. git add example1.example1 example2.example2
+3. git commit -m "Your commit message here"
+
 #### status and rollback
       - git status --> to check the status 
       - git log --> to get information about recent commits made.
       - git diff filename --> check the difference of a file from the original version
       - git checkout filename --> rollback a file to it's last version
 #### Creating Remote Repostirory 
-      1. git remote add origin github_repository_url
-      2. git branch -M main --> Change the deafult branch to main ( the code is going to be pushed here)
-      3. git push -u origin main --> Push the code from local to remote repository
+1. git remote add origin github_repository_url
+2. git branch -M main --> Change the deafult branch to main ( the code is going to be pushed here)
+3. git push -u origin main --> Push the code from local to remote repository
+
 #### Pull requests
   - Pull Requests: Create pull requests to propose changes and request code reviews before merging.
       1. git pull --> pull and merge form remote to local repositories
       2. git pull origin main --allow-unrelated-histories --> pull form remote repository and merge it by allowing unrelated histories.
+
  #### git branching
-      1. git branch <branch-name> -> to create a new branch.
-      2. git checkout <branch-name> -> to switch between branches.
-      3. git merge <branch-name> -> to combine changes from one branch into another
+1. git branch <branch-name> -> to create a new branch.
+2. git checkout <branch-name> -> to switch between branches.
+3. git merge <branch-name> -> to combine changes from one branch into another
+
 #### Git Cloning
       git clone url
 #### Update Git Remote URL
